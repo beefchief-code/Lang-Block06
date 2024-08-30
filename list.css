@@ -2,6 +2,8 @@ h1 {
     font-style: bold;
     color: blue;
     font-size: large;
+    width: 90%;
+
 }
 
 .title {
@@ -11,12 +13,24 @@ h1 {
 
 .items {
     color: green;
-    width: 20px;
+    border: 2px solid orange;
+    width: 50%;
+    height: 60px;
+    background-color: gray;
+    
+}
+
+
+main {
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 49%;
 }
 
 .entry {
-    border: 8px orange;
-    width: 50px;
-    height: 50px;
-    background-color: gray;
+float: left;
+display: inline;
+background-color: yellow;
+border: 2px solid black;
 }
