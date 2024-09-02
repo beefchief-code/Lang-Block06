@@ -1,4 +1,4 @@
-h1 {
+h1 {    /* format for major section titles */
     font-style: bold;
     color: blue;
     font-size: large;
@@ -9,7 +9,7 @@ h1 {
 
 }
 
-.entry {
+.entry {    /* element formatting for each storage section */ 
 float: left;
 display: inline;
 background-color: yellow;
@@ -19,7 +19,7 @@ margin: auto;
 margin-inline: 10px;
 }
 
-.title {
+.title {    /* text formatting for each storage section */
     font-size: medium;
     color: red;
     align-items: center;
@@ -28,7 +28,7 @@ margin-inline: 10px;
 
 }
 
-.items {
+.items {    /* text and element formatting for list of inidividual items */
     color: greenyellow;
     border: 2px solid orange;
     width: 40%;
@@ -41,7 +41,7 @@ margin-inline: 10px;
     
 }
 
-img {
+img {   /* ensures images stay in line with rest of list */
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -50,7 +50,7 @@ img {
 
 }
 
-div{
+div{        /* positioning of major sections */
   
     padding-top: 20px;
     padding-bottom: 20px;
@@ -58,12 +58,12 @@ div{
     
 }
 
-.pantry{
+.pantry{    /* ensures pantry section stays at top of page */
     position:absolute;
     
 }
 
-.freezer{
+.freezer{   /* ensures freezer section appears below pantry */
     position: relative;
     top: 300px;
 
