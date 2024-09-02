@@ -2,30 +2,11 @@ h1 {
     font-style: bold;
     color: blue;
     font-size: large;
-    width: 90%;
-
-}
-
-.title {
-    font-size: medium;
-    color: red;
-}
-
-.items {
-    color: green;
-    border: 2px solid orange;
-    width: 50%;
-    height: 60px;
-    background-color: gray;
+    text-align: center;
+    background-color: aquamarine;
+    border: 3px solid purple;
     
-}
 
-
-main {
-  
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 49%;
 }
 
 .entry {
@@ -33,4 +14,57 @@ float: left;
 display: inline;
 background-color: yellow;
 border: 2px solid black;
+width: 30%;
+margin: auto;
+margin-inline: 10px;
+}
+
+.title {
+    font-size: medium;
+    color: red;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.items {
+    color: greenyellow;
+    border: 2px solid orange;
+    width: 40%;
+    height: 160px;
+    background-color: gray;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: auto;
+    padding-bottom: auto;
+    
+}
+
+img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+
+}
+
+div{
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 49%;
+    
+}
+
+.pantry{
+    position:absolute;
+    
+}
+
+.freezer{
+    position: relative;
+    top: 300px;
+
 }
