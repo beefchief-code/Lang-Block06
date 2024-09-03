@@ -1,4 +1,4 @@
-h1 {    /* format for major section titles */
+h2 {    /* format for major section titles */
     font-style: bold;
     color: blue;
     font-size: large;
@@ -67,4 +67,8 @@ div{        /* positioning of major sections */
     position: relative;
     top: 300px;
 
+}
+.name{
+    text-align: center;
+    color:blueviolet;
 }
