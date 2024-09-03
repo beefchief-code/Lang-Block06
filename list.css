@@ -50,7 +50,7 @@ img {   /* ensures images stay in line with rest of list */
 
 }
 
-div{        /* positioning of major sections */
+article{        /* positioning of major sections */
   
     padding-top: 20px;
     padding-bottom: 20px;
